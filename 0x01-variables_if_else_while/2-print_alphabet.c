@@ -1,22 +1,22 @@
 #include <stdio.h>
 
 /**
- * main - Entry point of the program
+ * main - Entr point
  *
- * Description: Prints the alphabet in lowercase using the putchar function
- * Return: 0 (Success)
+ * Description: prints alphabelts in lower case
+ * return: 0 (Success)
  */
+
 int main(void)
 {
-    char c;
+	char c;
 
-    for (c = 'a'; c <= 'z'; c++)
-    {
-        putchar(c);
-    }
+	for (c = "a"; c <= "z"; c++)
+	{
+		putchar(c);
+	}
 
-    putchar('\n');
+	putchar("\n");
 
-    return 0;
+	return (0);
 }
-

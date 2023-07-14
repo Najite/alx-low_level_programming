@@ -1,16 +1,22 @@
 #include <stdio.h>
 
-int main() {
+/**
+ * main - Entry point of the program
+ *
+ * Return: 0 on success
+ */
+int main(void)
+{
     char letter;
 
-
-    for (letter = 'a'; letter <= 'z'; letter++) {
+    /* Print lowercase alphabet */
+    for (letter = 'a'; letter <= 'z'; letter++)
+    {
         putchar(letter);
     }
 
-
+    /* Print new line */
     putchar('\n');
 
     return 0;
 }
-

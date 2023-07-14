@@ -4,7 +4,7 @@
  * main - Entr point
  *
  * Description: prints alphabelts in lower case
- * return: 0 (Success)
+ * Return: Always 0 (Success)
  */
 
 int main(void)

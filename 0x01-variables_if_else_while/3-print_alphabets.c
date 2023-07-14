@@ -1,22 +1,31 @@
 #include <stdio.h>
 
 /**
- * main - Entry point of the program
+ * main - Entry point
  *
- * Return: 0 on success
+ * Description: prints the alphabets in lower, followd by upper
+ *
+ * Return: Always 0 (Success)
  */
+
 int main(void)
 {
-    char letter;
+	int i;
 
-    /* Print lowercase alphabet */
-    for (letter = 'a'; letter <= 'z'; letter++)
-    {
-        putchar(letter);
-    }
+	/* Print lower alphabet */
+	for (i = 0; i < 26; i++)
+	{
+		putchar('a' + i);
+	}
 
-    /* Print new line */
-    putchar('\n');
+	/* Print uppercase */
+	for (i = 0; i < 26; i++)
+	{
+		putchar('A' + i);
+	}
 
-    return 0;
+	/* Print new line */
+	putchar('\n');
+
+	return (0);
 }

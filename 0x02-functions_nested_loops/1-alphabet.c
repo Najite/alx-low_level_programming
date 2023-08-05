@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * main - print all alphabets
+ * print_alphabet - print all alphabets
  * description: function that prints
  *
  * Return: Always 0
  */
-int main(void)
+void print_alphabet(void)
 {
 	char letter = 'a';
 
@@ -16,5 +16,4 @@ int main(void)
 		letter++;
 	}
 	_putchar('\n');
-	return (0);
 }
